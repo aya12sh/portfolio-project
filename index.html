@@ -11,20 +11,22 @@
 <body>
   <div class="po-wrapper">
     <div class="po-inner">
+      <!-- creating the header -->
       <header class="po-header">
-        <div class="po-logo-container">
+        <!-- modify the classes name -->
+        <div class="po-header__logo">
           <img src="./assets/imgs/Logologo.png" alt="">
         </div>
-        <nav class="po-nav-header">
+        <nav class="po-header__nav">
           <ul class="po-header__list">
-            <li class="po-header__list-item"><a href="">home</a></li>
-            <li class="po-header__list-item"><a href="">portfolio</a></li>
-            <li class="po-header__list-item"><a href="">about me</a></li>
-            <li class="po-header__list-item"><a href="">testimonial</a></li>
+            <li class="po-header__list-item"><a class="po-header__list-link" href="">home</a></li>
+            <li class="po-header__list-item"><a class="po-header__list-link" href="">portfolio</a></li>
+            <li class="po-header__list-item"><a class="po-header__list-link" href="">about me</a></li>
+            <li class="po-header__list-item"><a class="po-header__list-link" href="">testimonial</a></li>
           </ul>
         </nav>
-        <div class="po-contact-btn-container">
-          <button class="po-contact-btn">contact me</button>
+        <div class="po-header__link-container">
+          <a class="po-header__contact-link" href="#">contact me</a>
         </div>
       </header>
       <main class="po-main">
@@ -45,7 +47,11 @@
         <section></section>
         <section></section>
         <section></section>      </main>
-      <footer class="po-footer">footer</footer>
+      <footer class="po-footer">
+       <div></div>
+       <div></div>
+
+      </footer>
     </div>
   </div>
   <script src="./src/js/main.js"></script>
